@@ -1,7 +1,7 @@
 public class homeWork3 {
     public static void main(String[] args) {
 
-        int[] massive = new int[]{1, 4, 3, 4, 115, 6, 7, 88, 99, 2, 24, 46, 32, 29, 24, 41, 11, 22, 33, 65};//создать масси типа int из 20 елементов.
+        int[] massive = new int[]{1, 4, 3, 6, 115, 6, 7, 88, 99, 2, 24, 46, 32, 29, 24, 41, 11, 22, 33, 65};//создать масси типа int из 20 елементов.
         int sum = 0;
         for (int i : massive) {
             if (i > 5 && i < 45) {
