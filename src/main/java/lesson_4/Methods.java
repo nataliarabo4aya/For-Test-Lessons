@@ -27,7 +27,7 @@ public class Methods {
         System.out.println("Результат умножения " +result);
     }
     public static void persentage (double num1, double num2){
-        double result = (num1 * num2)/100;
+        double result = (num1 / num2)*100;
         System.out.println("Процент " +result);
     }
 
