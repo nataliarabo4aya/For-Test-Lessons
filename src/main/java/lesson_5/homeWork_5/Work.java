@@ -2,9 +2,9 @@ package lesson_5.homeWork_5;
 
 public class Work {
     public static void main(String[] args) {
-        Dog_class dog = new Dog_class("Cookie", 2, "White", 5);
-        Dog_class dogShort = new Dog_class(5, "Gray");
-        Dog_class dogEmtyFields = new Dog_class();
+        DogcСlass dog = new DogcСlass("Cookie", 2, "White", 5);
+        DogcСlass dogShort = new DogcСlass(5, "Gray");
+        DogcСlass dogEmptyFields = new DogcСlass();
 
         System.out.println(dog.getColorDog());
         System.out.println(dog.getWeightDog());
