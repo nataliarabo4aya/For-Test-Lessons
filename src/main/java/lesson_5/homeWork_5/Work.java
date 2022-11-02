@@ -15,7 +15,8 @@ public class Work {
         dog.setAgeDog(26);
         System.out.println(dog.getAgeDog());
         System.out.println(dogShort.getColorDog());
-        dogEmtyFields.printInfo();
+       // dogEmtyFields.printInfo();
+        //System.out.println(dogEmtyFields);
 
 
     }

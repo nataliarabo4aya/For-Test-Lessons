@@ -27,11 +27,12 @@ public class Dog_class {
     //констуктор которий не принимает никакие параметри
 
     public Dog_class() {
+        System.out.println("Creating object of the class Dog.");
 
     }
-    public void printInfo(){
-        System.out.println("Creating object of the class Dog.");
-    }
+//   public void printInfo(){
+//     System.out.println("Creating object of the class Dog.");
+//  }
 
     public String getNameDog() {
         return nameDog;
