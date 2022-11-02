@@ -1,6 +1,6 @@
 package lesson_5.homeWork_5;
 
-public class DogcСlass {
+public class DogСlass {
     private String nameDog;
     private int ageDog;
     private String colorDog;
@@ -9,7 +9,7 @@ public class DogcСlass {
 
 
     //конструктор с четирьмя параметрами
-    public DogcСlass(String nameDog, int ageDog, String colorDog, int weightDog) {
+    public DogСlass(String nameDog, int ageDog, String colorDog, int weightDog) {
         this.nameDog = nameDog;
         this.ageDog = ageDog;
         this.colorDog = colorDog;
@@ -17,7 +17,7 @@ public class DogcСlass {
     }
 //конструктор со значениями по умолчанию
 
-    public DogcСlass(int ageDog, String colorDog) {
+    public DogСlass(int ageDog, String colorDog) {
         this.nameDog = nameDog;
         this.weightDog = weightDog;
         this.ageDog = 3;
@@ -26,7 +26,7 @@ public class DogcСlass {
 
     //констуктор которий не принимает никакие параметри
 
-    public DogcСlass() {
+    public DogСlass() {
         System.out.println("Creating object of the class Dog.");
 
     }
