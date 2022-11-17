@@ -4,7 +4,7 @@ public class Cat6 extends Animal6 {
     private String color;
 
     public Cat6(String color) {
-        this.color = color;
+        this.color = "White";
     }
 //геттери и сеттери
     public String getColor() {
